@@ -4,7 +4,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import Animate from 'react-smooth';
+import Animate from 'react-smooth-fork';
 import _ from 'lodash';
 import Curve from '../shape/Curve';
 import Dot from '../shape/Dot';

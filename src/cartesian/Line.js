@@ -3,7 +3,7 @@
  */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Animate from 'react-smooth';
+import Animate from 'react-smooth-fork';
 import classNames from 'classnames';
 import _ from 'lodash';
 import pureRender from '../util/PureRender';

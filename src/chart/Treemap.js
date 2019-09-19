@@ -4,7 +4,7 @@
  */
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Smooth from 'react-smooth';
+import Smooth from 'react-smooth-fork';
 import classNames from 'classnames';
 import _ from 'lodash';
 import Surface from '../container/Surface';
