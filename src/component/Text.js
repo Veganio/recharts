@@ -50,16 +50,16 @@ class Text extends Component {
     wordsByLines: [],
   };
 
-  componentWillMount() {
+  componentDidMount() {
     this.updateWordsByLines(this.props, true);
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentDidUpdate(prevProps) {
     const needCalculate = (
-      this.props.children !== nextProps.children ||
-      this.props.style !== nextProps.style
+      this.props.children !== prevProps.children ||
+      this.props.style !== prevProps.style
     );
-    this.updateWordsByLines(nextProps, needCalculate);
+    if (needCalculate) this.updateWordsByLines(this.props, needCalculate);
   }
 
   updateWordsByLines(props, needCalculate) {
