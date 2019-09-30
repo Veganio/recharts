@@ -1,3 +1,13 @@
+# Recharts fork from (1.7.1)
+
+v1.7.2
+-
+* remove deprecated [componentWillReceiveProps] - fix warning on react >= 16.9.0
+* fixed also react-smooth 1.0.3 https://github.com/salvoravida/react-smooth
+```sh
+# latest stable
+$ npm install recharts-fork
+```
 # Recharts
 
 [![Rocket.Chat](https://demo.rocket.chat/images/join-chat.svg)](https://demo.rocket.chat/channel/recharts)
@@ -45,7 +55,7 @@ NPM is the easiest and fastest way to get started using Recharts. It is also the
 
 ```sh
 # latest stable
-$ npm install recharts
+$ npm install recharts-fork
 ```
 
 ### umd
