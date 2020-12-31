@@ -1,5 +1,5 @@
 {
-  "name": "recharts-fork",
+  "name": "recharts",
   "version": "1.7.2",
   "description": "React charts",
   "main": "lib/index",
